@@ -6,6 +6,30 @@
 - (include your own CSRF Token and Session Handling) - its important, ## REQUIRED (Pagchineck ko system nyo)
 - All upload folder must be protected using php and htaccess
 
+
+### Admin Side [dev.lms.ccc.edu.ph/app/admin] for checking functionality
+
+> To gain access basic auth
+> usename : admin
+> password: CCC_MIS@123$#~15
+
+#### admin credential: 
+
+> ##ADMIN
+> usename : ADMIN_TEST
+> password: ADMIN_TEST
+>
+> ##REGISTRAR
+> usename : REGS_TEST
+> password: REGS_TEST
+
+##### Teacher [dev.lms.ccc.edu.ph] for checking functionality
+
+> ##TEACHER
+> usename : TEACHER_TEST@ccc.edu.ph
+> password: TEACHER_TEST
+
+
 ```php
 ## roles variable
 $g_user_role  == array for roles 
