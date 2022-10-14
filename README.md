@@ -48,7 +48,7 @@ Import the database (optional)
 - Username: ituser
 - Password: admin
 
-## For Design and JS > but yu can use your own design (CSS Template)
+## For Design and JS > but you can use your own design (CSS Template)
 - Use bootstrap 4+
 - jQuery
 
@@ -107,7 +107,7 @@ output: <h1>A heading here</h1>alert('HACKED');"
 
 #################################
 ##using var_html - also use js_clean
-$header_code = var_hrml($header_code);
+$header_code = var_html($header_code);
 
 ## output script tag remove and convert to htmlencoded
 output: &lt;h1&gt;A heading here&lt;/h1&gt;alert(&#39;HACKED&#39;);"
@@ -116,7 +116,7 @@ output: &lt;h1&gt;A heading here&lt;/h1&gt;alert(&#39;HACKED&#39;);"
 ################################
 ##using array_html - also use js_clean_array, for array input
 $header_code[0] =  "<h1>A heading here</h1><script>alert('HACKED');</script>";
-$header_code = array_hrml($header_code);
+$header_code = array_html($header_code);
 
 ## output script tag remove and convert to htmlencoded
 output header_code[0]: &lt;h1&gt;A heading here&lt;/h1&gt;alert(&#39;HACKED&#39;);"
