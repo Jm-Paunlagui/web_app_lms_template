@@ -6,7 +6,8 @@
 - (include your own CSRF Token and Session Handling) - its important, ## REQUIRED (Pagchineck ko system nyo)
 - All upload folder must be protected using php and htaccess
 
-### Admin Side [dev.lms.ccc.edu.ph/app/admin] for checking functionality
+### Admin Side e-GURO for checking functionality
+Link: [dev.lms.ccc.edu.ph/app/admin](https://dev.lms.ccc.edu.ph/app/admin)
 ```
 > To gain access basic auth
   usename : admin
@@ -21,17 +22,18 @@
 > ##REGISTRAR
   usename : REGS_TEST
   password: REGS_TEST
+```
 
-
-##### Teacher [dev.lms.ccc.edu.ph] for checking functionality
-
+### Teacher Side for checking functionality
+Link: [dev.lms.ccc.edu.ph](https://dev.lms.ccc.edu.ph)
+```
 > ##TEACHER
   usename : TEACHER_TEST@ccc.edu.ph
   password: TEACHER_TEST
 ```
-
+### Variables
 ```php
-## roles variable
+## Roles Variable
 $g_user_role  == array for roles 
 if(!($g_user_role[0] == "TEACHER")){  
 	header("Location: ".BASE_URL);
